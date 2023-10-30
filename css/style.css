@@ -1,0 +1,236 @@
+body{
+        margin: 0px;
+        padding: 0px;
+      }
+
+     .nav-sep{
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        /* padding: 0 10px !important; */
+    }
+    
+        
+    .bottom-section p{
+        font-size: 12px;
+    }
+      .last-section h5{
+        font-size: 20px;
+        font-weight: bold;
+    
+      }  
+    
+      .last-section p{
+        font-size: 14px !important;
+        padding: 8px 0 0;
+
+      }
+      .footer-links .footer-link{
+        color: #302C41;
+        font-size: 12px;
+        padding: 4px 12px;
+      }
+      .footer-btn{
+        font-size: 12.8px;
+        padding: 10.24px 25.6px;
+        
+      }
+   
+     .footer-img-icon{
+        height:40px;
+        width: 140px;
+        object-fit: cover;
+     }
+    .bg-grey{
+        background-color:rgb(238, 238, 241);
+        
+    }
+  
+    .last-section-btn{
+        display: block;
+    }
+    .hero{
+        background-image: url('../img/SummerMoment-img1-hero.webp');
+        height: 500px;
+        background-size: cover;
+        width: 100%;
+        margin-right: 0;
+        padding-right:0 ;
+    }
+    .content{
+        width: 650px;
+        padding: 130px 0 0 100px;
+        height: 231px;
+        color: white;
+    }
+    .content h4{
+        font-size: 18px;
+    }
+    .content h1{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content .btn{
+        /* padding: 8px 14px; */
+        font-size: 20px;
+        /* color: white; */
+        /* border-radius: 24px; */
+    }
+    .con{
+        padding: 34px;
+    }
+    .img-header{
+        position: relative;
+    }
+    .tag{
+        position: absolute;
+        top:0;
+        background-color:rgb(235, 113, 0); 
+        color: white;
+        padding: 10px 26px;
+        border-radius: 16px 0 16px 0;
+    }
+    .img-container{
+        position: relative;
+    }
+    .desc{
+        position: absolute;
+        top:0;
+        padding: 100px 100px;
+       
+    }
+    .search{
+        width: 520px;
+        padding: 10px 25px;
+        border: 3px solid #ebb000;
+        border-radius: 4px;
+    
+    }
+    .search:focus{
+        outline: none;
+        border: 3px solid #eb7d00;
+    
+    }
+    .search-btn{
+        margin-left: -95px;
+    }
+    .search-container{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+/* mobile screen */
+    @media(max-width:586px){
+.hero{
+    display: none;
+} 
+.hero-mobile{
+    display: block;
+}
+.navbar{
+    margin: 4px 15px ;
+}
+.desc{
+    position: absolute;
+    top:0;
+    padding: 80px 50px;
+   
+}
+.lady{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    
+}
+.lady p{
+    font-size: 14px;
+    margin: 10px;
+}
+.stickers{
+    margin:15px auto;
+ flex-wrap: wrap;
+ text-align: center;
+ justify-content: center !important;
+    
+}
+.sticker{
+    justify-content: center !important;
+    margin:12px auto!important;
+    padding-right: 0;
+}
+.svg{
+    margin:12px auto !important;
+    justify-content: center !important;
+
+    
+}
+.footer-links{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.nav-sep{
+ display: none;
+    /* padding: 0 10px !important; */
+}
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0);
+    /* // color: rgb(235, 113, 0); */
+    display: inline-block;
+}
+
+        
+    }
+    /* large screen */
+    @media(min-width:586px){
+        .hero{
+            display: block;
+        } 
+        .hero-mobile{
+            display: none;
+        }
+        .navbar{
+            margin: 4px 50px ;
+        }
+        .desc{
+            position: absolute;
+            top:0;
+            padding: 100px 100px;
+           
+        }
+        .lady{
+            padding-left: 60px;
+            text-align: start;
+            
+        }
+       
+        .lady p{
+            font-size: 20px;
+           
+        }
+        
+        .nav-link{
+            transition:800ms;
+            /* padding: 0 10px !important; */
+            color: rgb(18, 20, 17);
+            font-weight: bold;
+            
+            border-bottom: 5px solid white !important;
+        }
+        .nav-link:hover{
+            border-bottom: 5px solid rgb(235, 113, 0) !important;
+            
+        }
+        .nav-sep{
+            border-right: 1px solid gray;
+            border-left: 1px solid gray;
+            /* padding: 0 10px !important; */
+        }
+        .nav-link:hover{
+            border-bottom: 2px solid rgb(235, 113, 0);
+        
+        }
+
+    }

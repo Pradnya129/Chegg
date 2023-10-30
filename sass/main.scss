@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@400;600;700&display=swap');
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$theme-colors: (
+  "primary":   rgb(235, 113, 0),
+  "success":   #68b631,
+  "info":       rgb(103, 102, 102),
+  "warning":    tomato,
+  "danger":     red,
+  "light":      white,
+  "dark":     rgb(34, 34, 34)
+);
+// $navbar-nav-link-padding-x:30px;
+$transition-collapse: height .12ms ease;
+$card-border-radius: 16px;
+$card-border-color:   rgb(93, 91, 91);
+$navbar-light-hover-color: rgb(235, 113, 0);
+@import'../node_modules/bootstrap/scss/bootstrap.scss';
+// .last-section .col-md-4 h5{
+//   font-size: 10px !important;
+// }
+
+.nav-link:hover{
+    border-bottom: 5px solid rgb(235, 113, 0);
+    // color: rgb(235, 113, 0);
+}
+
